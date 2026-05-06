@@ -1,4 +1,4 @@
-const API = "http://localhost:5000";
+const API = "https://blog-platform-backend-hm57.onrender.com";
 
 async function signup() {
     await fetch(`${API}/signup`, {
